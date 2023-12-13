@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Мой многостраничный сайт</title>
+    </head>
+    <body>
+        <header>
+            <h1>DARO</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="page1.html">Роботы в промышленности</a></li>
+                    <li><a href="page2.html">Роботы в медицине</a></li>
+                    <li><a href="page3.html">Искусственный интеллект</a></li>
+                    <li><a href="page4.html">Робототехника будущего</a></li>
+                    <li><a href="page5.html">Экзоскелеты и киборги</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="content">
+                <h2>Роботы в промышленности</h2>
+                <p>Промышленные роботы играют ключевую роль в автоматизации производственных процессов. Они обеспечивают высокую эффективность, точность и безопасность в различных отраслях.</p>
+    
+                <div class="robot-types">
+                    <h3>Типы промышленных роботов:</h3>
+                    <ul id="robotList">
+                        <li data-image="img/robot1.jpg">Манипуляторы для сборки и обработки материалов</li>
+                        <li data-image="img/robot2.jpg">Сварочные роботы для автоматизации сварки</li>
+                        <li data-image="img/robot3.jpg">Роботы с компьютерным зрением для контроля качества</li>
+                        <li data-image="img/robot4.jpg">Автоматизированные транспортные роботы</li>
+                    </ul>
+                </div>
+                <div id="robotInfo">
+                    <div id="robotImageContainer">
+                        <img id="robotImage" src="" alt="Изображение робота">
+                    </div>
+                </div>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2023 Мой многостраничный сайт</p>
+        </footer>
+    
+        <script src="js/page1.js"></script>
+        <div id="additionalImages"></div>
+    </body>
+</html>

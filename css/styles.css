@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #2ecc71;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro img {
+    max-width: 25%;
+    height: auto; /* Используем auto для поддержки адаптивности */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.highlights {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.highlights h2 {
+    color: #3498db;
+}
+
+.highlights ul {
+    padding: 0;
+    list-style: none;
+}
+
+.highlights ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.highlights ul li:before {
+    content: "\2022";
+    color: #3498db;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.robot-types h3 {
+    color: #3498db;
+}
+
+#robotList {
+    list-style: none;
+    padding: 0;
+}
+
+#robotList li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+#robotList li:before {
+    content: "\2022";
+    color: #3498db;
+    font-size: 1.2em;
+    position: absolute;
+    left: 0;
+}
+
+#robotList li:hover {
+    color: #2ecc71;
+    border-bottom: 2px solid #2ecc71;
+}
+

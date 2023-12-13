@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Мой многостраничный сайт</title>
+</head>
+<body>
+    <header>
+        <h1>DARO</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="page1.html">Роботы в промышленности</a></li>
+                <li><a href="page2.html">Роботы в медицине</a></li>
+                <li><a href="page3.html">Искусственный интеллект</a></li>
+                <li><a href="page4.html">Робототехника будущего</a></li>
+                <li><a href="page5.html">Экзоскелеты и киборги</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="content">
+            <h2>Роботы в медицине</h2>
+            <p>Медицинские роботы применяются в различных областях медицины для выполнения сложных операций, диагностики и лечения. Они обеспечивают точность и минимизацию воздействия на пациента.</p>
+
+            <div class="robot-types">
+                <h3>Типы медицинских роботов:</h3>
+                <ul id="robotList">
+                    <li data-image="img/medical_robot1.jpg">Хирургические роботы для операций</li>
+                    <li data-image="img/medical_robot2.jpg">Роботы для доставки медикаментов</li>
+                    <li data-image="img/medical_robot3.jpg">Роботы для реабилитации пациентов</li>
+                    <li data-image="img/medical_robot4.jpg">Роботы для диагностики и обследования</li>
+                </ul>
+            </div>
+
+            <div id="robotInfo">
+                <div id="robotImageContainer">
+                    <img id="robotImage" src="" alt="Изображение медицинского робота">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Мой многостраничный сайт</p>
+    </footer>
+
+    <script src="js/page2.js"></script>
+    <div id="additionalImages"></div>
+</body>
+</html>
